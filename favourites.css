@@ -1,0 +1,47 @@
+
+body{
+    background-image: url("./assets/comicblue.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#name{
+    font-weight: bold;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+#favlistitem{
+    display: flex;
+    align-items: flex-start;
+
+}
+
+#outerbox{
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px;
+    
+}
+#innerbox {
+    margin: 10px;
+}
+h5{
+    margin-left: 10px;
+}
+button{
+    color: red;
+    margin-left: 25%;
+    margin-bottom: 5px;
+}
+#innerbox img {
+    height:300px;
+    width:200px;
+  }
+
+#home{
+    font-weight: bold;
+}
+  

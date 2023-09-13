@@ -1,0 +1,106 @@
+/* Set the background image for the entire webpage */
+body {
+  background-image: url("./assets/Marvel\ superheroes\ wallpaper\ hd\ \ \ SF\ Wallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Style the main content container */
+main {
+  height: auto;
+  width: 60vw;
+  margin: 9rem auto;
+  border: rgb(243, 8, 8) solid 2px;
+  border-radius: 5px;
+  background-color: rgb(242, 13, 13);
+  position: relative;
+}
+
+/* Style the auto-complete list for search suggestions */
+#auto-complete {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+#auto-complete li {
+  color: black;
+  padding: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Style the search list */
+#searchList {
+  color: rgb(97, 248, 3);
+  z-index: 1;
+  position: relative;
+  top: 0;
+  margin-top: -1.5%;
+}
+
+#searchList li {
+  width: auto;
+  cursor: pointer;
+}
+
+/* Style the search container */
+#searchContainer {
+  max-height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Style the container for superhero details */
+.container {
+  height: auto;
+  width: 70vw;
+  display: flex;
+  padding: 10px;
+}
+
+/* Style the superhero image */
+.img img {
+  height: 400px;
+  width: auto;
+  border: 1px rgb(74, 212, 50) solid;
+}
+
+/* Style the superhero details section */
+.details {
+  height: 400px;
+  width: auto;
+  color: aliceblue;
+  font-weight: bold;
+  overflow-y: auto;
+  padding-left: 15px;
+}
+
+/* Style the powerstats section */
+#powerstats {
+  color: gold;
+}
+
+/* Style the biography section */
+#bio {
+  color: rgb(216, 253, 34);
+}
+
+/* Hide the favorite button by default */
+#favbtn {
+  display: none;
+}
+
+/* Style the logo text */
+#logo {
+  color: rgb(255, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+#fav{
+  color: blue;
+  font-weight: bold;
+}
