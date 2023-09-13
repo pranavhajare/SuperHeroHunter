@@ -1,5 +1,15 @@
 # 𝐒𝐮𝐩𝐞𝐫𝐇𝐞𝐫𝐨 𝐇𝐮𝐧𝐭𝐞𝐫 𝐀𝐩𝐩 🚀
 
+## Features
+
+- **Home Page:** 
+  
+- **Superhero Page** .
+
+- **My favourite superheroes Page** Display a list of all the favourite superheroes.
+- Remove button
+
+
 ## 🔨 Tools Used
 
 <p align="justify">
